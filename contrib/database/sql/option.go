@@ -8,7 +8,7 @@ package sql
 import (
 	"math"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal"
+	"github.com/bmermet/dd-trace-go/internal"
 )
 
 type config struct {

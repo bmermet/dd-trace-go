@@ -4,16 +4,16 @@
 // Copyright 2016-2020 Datadog, Inc.
 
 // Package mux provides tracing functions for tracing the gorilla/mux package (https://github.com/gorilla/mux).
-package mux // import "gopkg.in/DataDog/dd-trace-go.v1/contrib/gorilla/mux"
+package mux // import "github.com/bmermet/dd-trace-go/contrib/gorilla/mux"
 
 import (
 	"math"
 	"net/http"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/contrib/internal/httputil"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
+	"github.com/bmermet/dd-trace-go/contrib/internal/httputil"
+	"github.com/bmermet/dd-trace-go/ddtrace"
+	"github.com/bmermet/dd-trace-go/ddtrace/ext"
+	"github.com/bmermet/dd-trace-go/ddtrace/tracer"
 
 	"github.com/gorilla/mux"
 )

@@ -9,9 +9,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/internal"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/bmermet/dd-trace-go/ddtrace"
+	"github.com/bmermet/dd-trace-go/ddtrace/internal"
+	"github.com/bmermet/dd-trace-go/internal/log"
 )
 
 var _ ddtrace.SpanContext = (*spanContext)(nil)

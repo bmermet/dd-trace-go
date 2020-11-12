@@ -12,9 +12,9 @@ import (
 
 	"github.com/emicklei/go-restful"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
+	"github.com/bmermet/dd-trace-go/ddtrace"
+	"github.com/bmermet/dd-trace-go/ddtrace/ext"
+	"github.com/bmermet/dd-trace-go/ddtrace/tracer"
 )
 
 // FilterFunc returns a restful.FilterFunction which will automatically trace incoming request.

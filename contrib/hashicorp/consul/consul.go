@@ -9,9 +9,9 @@ import (
 	"context"
 	"math"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
+	"github.com/bmermet/dd-trace-go/ddtrace"
+	"github.com/bmermet/dd-trace-go/ddtrace/ext"
+	"github.com/bmermet/dd-trace-go/ddtrace/tracer"
 
 	consul "github.com/hashicorp/consul/api"
 )

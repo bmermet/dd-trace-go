@@ -16,8 +16,8 @@ import (
 	"strings"
 	"time"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/internal"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/version"
+	"github.com/bmermet/dd-trace-go/internal"
+	"github.com/bmermet/dd-trace-go/internal/version"
 )
 
 var defaultClient = &http.Client{

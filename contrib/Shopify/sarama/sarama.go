@@ -4,15 +4,15 @@
 // Copyright 2016-2020 Datadog, Inc.
 
 // Package sarama provides functions to trace the Shopify/sarama package (https://github.com/Shopify/sarama).
-package sarama // import "gopkg.in/DataDog/dd-trace-go.v1/contrib/Shopify/sarama"
+package sarama // import "github.com/bmermet/dd-trace-go/contrib/Shopify/sarama"
 
 import (
 	"math"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/bmermet/dd-trace-go/ddtrace"
+	"github.com/bmermet/dd-trace-go/ddtrace/ext"
+	"github.com/bmermet/dd-trace-go/ddtrace/tracer"
+	"github.com/bmermet/dd-trace-go/internal/log"
 
 	"github.com/Shopify/sarama"
 )

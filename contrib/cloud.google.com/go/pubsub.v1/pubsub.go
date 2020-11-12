@@ -10,9 +10,9 @@ import (
 	"context"
 	"sync"
 
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
-	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
-	"gopkg.in/DataDog/dd-trace-go.v1/internal/log"
+	"github.com/bmermet/dd-trace-go/ddtrace/ext"
+	"github.com/bmermet/dd-trace-go/ddtrace/tracer"
+	"github.com/bmermet/dd-trace-go/internal/log"
 
 	"cloud.google.com/go/pubsub"
 )
